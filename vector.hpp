@@ -1,7 +1,7 @@
 #include<iostream>
 
 template<typename T >
-class Vector{
+class Vector {
 private:
     T* m_data{};
     int m_topindex {0};
