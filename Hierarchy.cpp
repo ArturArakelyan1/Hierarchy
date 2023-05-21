@@ -8,7 +8,7 @@ class Empty {
     }
 };
 
-class Student : public Empty{
+class Student : public Empty {
     private:
         int m_age {0};
         std::string m_name {""};
@@ -36,7 +36,7 @@ class Student : public Empty{
     }
 };
 
-class Airplane : public Empty{
+class Airplane : public Empty {
     private:
         std::string m_model {""};
         int m_serial_number{0};
